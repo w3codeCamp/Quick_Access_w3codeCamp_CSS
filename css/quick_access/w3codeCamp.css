@@ -1,0 +1,127 @@
+/* 
+Author: ALI AKBAR (Mohammad Bablu YT).
+YouTube Channel: w3codeCamp
+Content Css: css framework 2022
+Create Date: 24/Aug/2022
+*/
+
+/* ===== Fonts ===== */
+
+
+/* ===== Default css ===== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container-full{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.container-full:before,
+.container-full:after,
+.container:before,
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25{
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-30{
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-33{
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-50{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
+
+.col-70{
+    width: 70%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.pro-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ===== site css ===== */
+
+/* ===== 01. HEADER CSS ===== */
+/* 
+header{
+    padding: 15px 0;
+} */
+
+/* ===== 02. HOME CSS ===== */
+/* .home{
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    padding: 150px 0;
+} */
+/* 
+.home:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+    z-index: -1;
+} */
+/* ===== 03. ? CSS ===== */
+/* ===== 04. ? CSS ===== */
+/* ===== 05. ? CSS ===== */
+/* ===== 06. ? CSS ===== */
+/* ===== 07. ? CSS ===== */
+/* ===== 08. ? CSS ===== */
